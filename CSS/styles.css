@@ -216,6 +216,13 @@ a {
   white-space: nowrap;
 }
 
+.btn .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
 .btn:hover {
   cursor: pointer;
 }
@@ -289,8 +296,8 @@ a {
   border: 1px solid var(--color-border);
   color: var(--color-headings);
   font-size: 2rem;
-  outline: none;
-  padding: 1.5rem 2.5rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
 }
 
 ::placeholder {
@@ -306,7 +313,8 @@ a {
 .input-group .input {
   border: none;
   flex-grow: 1;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
+  overflow: hidden;
 }
 
 .input-group .btn {
@@ -734,3 +742,32 @@ a {
     align-self: center;
   }
 }
+
+/* Domain Block */
+
+.block-domain .input-group {
+  box-shadow: 0 0 30px 20px #e6ebee;
+  border: 0;
+  margin: 4rem auto;
+  max-width: 670px;
+}
+
+.block-domain__prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
+  font-size: 2rem;
+  font-weight: 600;
+  justify-items: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .block-domain__prices {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    justify-items: center;
+  }
+}
+
+/* Plans Block */
