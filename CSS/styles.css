@@ -325,6 +325,7 @@ a {
   flex-grow: 1;
   padding: 1.5rem 2rem;
   overflow: hidden;
+  width: 0;
 }
 
 .input-group .btn {
@@ -782,8 +783,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
