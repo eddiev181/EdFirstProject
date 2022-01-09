@@ -1,0 +1,24 @@
+{
+  "name": "HTML",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddiev181/EdFirstProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddiev181/EdFirstProject/issues"
+  },
+  "homepage": "https://github.com/eddiev181/EdFirstProject#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
