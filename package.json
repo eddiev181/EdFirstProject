@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/eddiev181/EdFirstProject#readme",
   "devDependencies": {
-    "parcel": "latest"
+    "parcel-bundler": "^1.12.5"
   }
 }
